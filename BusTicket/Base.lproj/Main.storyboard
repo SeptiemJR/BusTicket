@@ -36,10 +36,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="kb7-w0-De3">
             <objects>
-                <viewController id="TfN-kD-OVB" sceneMemberID="viewController">
+                <viewController id="TfN-kD-OVB" customClass="SecondViewController" customModule="BusTicket" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Kcx-YH-tdZ"/>
                         <viewControllerLayoutGuide type="bottom" id="fCq-64-XMl"/>
@@ -52,6 +52,9 @@
                                 <rect key="frame" x="146" y="318" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back Please"/>
+                                <connections>
+                                    <action selector="ClickBack:" destination="TfN-kD-OVB" eventType="touchUpInside" id="nrd-Ak-iGp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -59,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AHL-YK-Mh1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="594" y="143"/>
+            <point key="canvasLocation" x="95" y="181"/>
         </scene>
     </scenes>
 </document>
