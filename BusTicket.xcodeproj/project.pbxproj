@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF5FC7571F2A5F4A00314E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5FC7561F2A5F4A00314E40 /* AppDelegate.swift */; };
+		EF5FC7591F2A5F4A00314E40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5FC7581F2A5F4A00314E40 /* ViewController.swift */; };
+		EF5FC75C1F2A5F4A00314E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5FC75A1F2A5F4A00314E40 /* Main.storyboard */; };
+		EF5FC75E1F2A5F4A00314E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5FC75D1F2A5F4A00314E40 /* Assets.xcassets */; };
+		EF5FC7611F2A5F4A00314E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5FC75F1F2A5F4A00314E40 /* LaunchScreen.storyboard */; };
+		EF5FC76C1F2A5F4A00314E40 /* BusTicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5FC76B1F2A5F4A00314E40 /* BusTicketTests.swift */; };
+		EF5FC7771F2A5F4A00314E40 /* BusTicketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5FC7761F2A5F4A00314E40 /* BusTicketUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF5FC7681F2A5F4A00314E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5FC74B1F2A5F4A00314E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5FC7521F2A5F4A00314E40;
+			remoteInfo = BusTicket;
+		};
+		EF5FC7731F2A5F4A00314E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5FC74B1F2A5F4A00314E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5FC7521F2A5F4A00314E40;
+			remoteInfo = BusTicket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF5FC7531F2A5F4A00314E40 /* BusTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5FC7561F2A5F4A00314E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF5FC7581F2A5F4A00314E40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF5FC75B1F2A5F4A00314E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF5FC75D1F2A5F4A00314E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF5FC7601F2A5F4A00314E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF5FC7621F2A5F4A00314E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5FC7671F2A5F4A00314E40 /* BusTicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusTicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5FC76B1F2A5F4A00314E40 /* BusTicketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTicketTests.swift; sourceTree = "<group>"; };
+		EF5FC76D1F2A5F4A00314E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5FC7721F2A5F4A00314E40 /* BusTicketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusTicketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5FC7761F2A5F4A00314E40 /* BusTicketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTicketUITests.swift; sourceTree = "<group>"; };
+		EF5FC7781F2A5F4A00314E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5FC7501F2A5F4A00314E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5FC7641F2A5F4A00314E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5FC76F1F2A5F4A00314E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5FC74A1F2A5F4A00314E40 = {
+			isa = PBXGroup;
+			children = (
+				EF5FC7551F2A5F4A00314E40 /* BusTicket */,
+				EF5FC76A1F2A5F4A00314E40 /* BusTicketTests */,
+				EF5FC7751F2A5F4A00314E40 /* BusTicketUITests */,
+				EF5FC7541F2A5F4A00314E40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5FC7541F2A5F4A00314E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5FC7531F2A5F4A00314E40 /* BusTicket.app */,
+				EF5FC7671F2A5F4A00314E40 /* BusTicketTests.xctest */,
+				EF5FC7721F2A5F4A00314E40 /* BusTicketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5FC7551F2A5F4A00314E40 /* BusTicket */ = {
+			isa = PBXGroup;
+			children = (
+				EF5FC7561F2A5F4A00314E40 /* AppDelegate.swift */,
+				EF5FC7581F2A5F4A00314E40 /* ViewController.swift */,
+				EF5FC75A1F2A5F4A00314E40 /* Main.storyboard */,
+				EF5FC75D1F2A5F4A00314E40 /* Assets.xcassets */,
+				EF5FC75F1F2A5F4A00314E40 /* LaunchScreen.storyboard */,
+				EF5FC7621F2A5F4A00314E40 /* Info.plist */,
+			);
+			path = BusTicket;
+			sourceTree = "<group>";
+		};
+		EF5FC76A1F2A5F4A00314E40 /* BusTicketTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5FC76B1F2A5F4A00314E40 /* BusTicketTests.swift */,
+				EF5FC76D1F2A5F4A00314E40 /* Info.plist */,
+			);
+			path = BusTicketTests;
+			sourceTree = "<group>";
+		};
+		EF5FC7751F2A5F4A00314E40 /* BusTicketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5FC7761F2A5F4A00314E40 /* BusTicketUITests.swift */,
+				EF5FC7781F2A5F4A00314E40 /* Info.plist */,
+			);
+			path = BusTicketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5FC7521F2A5F4A00314E40 /* BusTicket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5FC77B1F2A5F4A00314E40 /* Build configuration list for PBXNativeTarget "BusTicket" */;
+			buildPhases = (
+				EF5FC74F1F2A5F4A00314E40 /* Sources */,
+				EF5FC7501F2A5F4A00314E40 /* Frameworks */,
+				EF5FC7511F2A5F4A00314E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusTicket;
+			productName = BusTicket;
+			productReference = EF5FC7531F2A5F4A00314E40 /* BusTicket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF5FC7661F2A5F4A00314E40 /* BusTicketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5FC77E1F2A5F4A00314E40 /* Build configuration list for PBXNativeTarget "BusTicketTests" */;
+			buildPhases = (
+				EF5FC7631F2A5F4A00314E40 /* Sources */,
+				EF5FC7641F2A5F4A00314E40 /* Frameworks */,
+				EF5FC7651F2A5F4A00314E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5FC7691F2A5F4A00314E40 /* PBXTargetDependency */,
+			);
+			name = BusTicketTests;
+			productName = BusTicketTests;
+			productReference = EF5FC7671F2A5F4A00314E40 /* BusTicketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF5FC7711F2A5F4A00314E40 /* BusTicketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5FC7811F2A5F4A00314E40 /* Build configuration list for PBXNativeTarget "BusTicketUITests" */;
+			buildPhases = (
+				EF5FC76E1F2A5F4A00314E40 /* Sources */,
+				EF5FC76F1F2A5F4A00314E40 /* Frameworks */,
+				EF5FC7701F2A5F4A00314E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5FC7741F2A5F4A00314E40 /* PBXTargetDependency */,
+			);
+			name = BusTicketUITests;
+			productName = BusTicketUITests;
+			productReference = EF5FC7721F2A5F4A00314E40 /* BusTicketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5FC74B1F2A5F4A00314E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Vivich Ratanamolanon";
+				TargetAttributes = {
+					EF5FC7521F2A5F4A00314E40 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EF5FC7661F2A5F4A00314E40 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF5FC7521F2A5F4A00314E40;
+					};
+					EF5FC7711F2A5F4A00314E40 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF5FC7521F2A5F4A00314E40;
+					};
+				};
+			};
+			buildConfigurationList = EF5FC74E1F2A5F4A00314E40 /* Build configuration list for PBXProject "BusTicket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5FC74A1F2A5F4A00314E40;
+			productRefGroup = EF5FC7541F2A5F4A00314E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5FC7521F2A5F4A00314E40 /* BusTicket */,
+				EF5FC7661F2A5F4A00314E40 /* BusTicketTests */,
+				EF5FC7711F2A5F4A00314E40 /* BusTicketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5FC7511F2A5F4A00314E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5FC7611F2A5F4A00314E40 /* LaunchScreen.storyboard in Resources */,
+				EF5FC75E1F2A5F4A00314E40 /* Assets.xcassets in Resources */,
+				EF5FC75C1F2A5F4A00314E40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5FC7651F2A5F4A00314E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5FC7701F2A5F4A00314E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5FC74F1F2A5F4A00314E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5FC7591F2A5F4A00314E40 /* ViewController.swift in Sources */,
+				EF5FC7571F2A5F4A00314E40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5FC7631F2A5F4A00314E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5FC76C1F2A5F4A00314E40 /* BusTicketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5FC76E1F2A5F4A00314E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5FC7771F2A5F4A00314E40 /* BusTicketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF5FC7691F2A5F4A00314E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5FC7521F2A5F4A00314E40 /* BusTicket */;
+			targetProxy = EF5FC7681F2A5F4A00314E40 /* PBXContainerItemProxy */;
+		};
+		EF5FC7741F2A5F4A00314E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5FC7521F2A5F4A00314E40 /* BusTicket */;
+			targetProxy = EF5FC7731F2A5F4A00314E40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF5FC75A1F2A5F4A00314E40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5FC75B1F2A5F4A00314E40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF5FC75F1F2A5F4A00314E40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5FC7601F2A5F4A00314E40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF5FC7791F2A5F4A00314E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF5FC77A1F2A5F4A00314E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5FC77C1F2A5F4A00314E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BusTicket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratanamolanon.BusTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF5FC77D1F2A5F4A00314E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BusTicket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratanamolanon.BusTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EF5FC77F1F2A5F4A00314E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BusTicketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratanamolanon.BusTicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusTicket.app/BusTicket";
+			};
+			name = Debug;
+		};
+		EF5FC7801F2A5F4A00314E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BusTicketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratanamolanon.BusTicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusTicket.app/BusTicket";
+			};
+			name = Release;
+		};
+		EF5FC7821F2A5F4A00314E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BusTicketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratanamolanon.BusTicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BusTicket;
+			};
+			name = Debug;
+		};
+		EF5FC7831F2A5F4A00314E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BusTicketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratanamolanon.BusTicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BusTicket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5FC74E1F2A5F4A00314E40 /* Build configuration list for PBXProject "BusTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5FC7791F2A5F4A00314E40 /* Debug */,
+				EF5FC77A1F2A5F4A00314E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5FC77B1F2A5F4A00314E40 /* Build configuration list for PBXNativeTarget "BusTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5FC77C1F2A5F4A00314E40 /* Debug */,
+				EF5FC77D1F2A5F4A00314E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF5FC77E1F2A5F4A00314E40 /* Build configuration list for PBXNativeTarget "BusTicketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5FC77F1F2A5F4A00314E40 /* Debug */,
+				EF5FC7801F2A5F4A00314E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF5FC7811F2A5F4A00314E40 /* Build configuration list for PBXNativeTarget "BusTicketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5FC7821F2A5F4A00314E40 /* Debug */,
+				EF5FC7831F2A5F4A00314E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF5FC74B1F2A5F4A00314E40 /* Project object */;
+}
